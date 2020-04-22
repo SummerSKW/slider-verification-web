@@ -1,0 +1,64 @@
+.slideCaptchaContainer {
+  margin-top: 30px;
+}
+
+.slideCaptchaContainer .control {
+  height: 50px;
+}
+
+.slideCaptchaContainer .control .tips {
+  line-height: 50px;
+  padding-left: 50px;
+  user-select: none;
+}
+
+.slideCaptchaContainer .control .slider {
+  width: 50px;
+  line-height: 50px;
+}
+
+.slideCaptchaContainer .slider-moving .slided {
+  height: 50px;
+}
+
+.slideCaptchaContainer .control .slided {
+  height: 44px;
+  top: 2px;
+  left: 2px;
+  border: 0;
+  opacity: 0.7;
+}
+
+.slideCaptchaContainer .panel .puzzleImg {
+  height: 50px;
+  top: 28px;
+}
+
+.xt-slider-success .panel {
+  display: none !important;
+}
+
+.slideCaptchaContainer .panel {
+  bottom: 50px;
+}
+
+.slideCaptchaContainer:hover .panel {
+  display: block !important;
+}
+
+.xt-slider-success.slideCaptchaContainer .control .slider {
+  background: #a0d911;
+  color: #fff;
+}
+
+.xt-slider-success.slideCaptchaContainer .control .slided {
+  background: #a0d911;
+}
+
+.xt-slider-static .panel {
+  display: block !important;
+}
+
+.xt-slider-static.slideCaptchaContainer {
+  margin-top: 113px;
+}
